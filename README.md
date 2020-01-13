@@ -23,7 +23,7 @@ By the end of the week all developers can:
 - Databases
 - Tooling
 
-# Sample User Story
+## Sample User Story
 
 |   noun/class/object  |    verb/behavior/method     |
 |-----------|---------------|
@@ -31,7 +31,6 @@ By the end of the week all developers can:
 
 ```
 As a user
-So that I can access bookmarks that I have saved
+So that I can access websites that I have saved
 I'd like to see a list of bookmarks
 ```
-
