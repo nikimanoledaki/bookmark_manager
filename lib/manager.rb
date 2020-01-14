@@ -1,7 +1,7 @@
 class Manager
 
   def self.all
-    ["bookmark"]
+    ["bookmarks"]
   end
 
 end
