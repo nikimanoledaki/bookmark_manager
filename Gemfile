@@ -9,4 +9,3 @@ gem 'sinatra'
 gem 'selenium-webdriver'
 gem 'webdrivers' , '~> 4.0'
 gem 'thin'
-
