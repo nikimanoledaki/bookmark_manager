@@ -1,13 +1,18 @@
 {
   "RSpec": {
     "coverage": {
+<<<<<<< HEAD
       "/Users/student/Projects/week4/bookmark_manager/spec/features/viewing_bookmarks_spec.rb": [
+=======
+      "/Users/student/Makers/bookmark_manager/bookmark_manager/spec/features/viewing_bookmarks_spec.rb": [
+>>>>>>> 02296c5f7fd5a4bb45483f2e068dde0fa020d59f
         1,
         1,
         1,
         1,
         null,
         null
+<<<<<<< HEAD
       ],
       "/Users/student/Projects/week4/bookmark_manager/spec/manager_spec.rb": [
         1,
@@ -23,5 +28,10 @@
       ]
     },
     "timestamp": 1579013235
+=======
+      ]
+    },
+    "timestamp": 1579011287
+>>>>>>> 02296c5f7fd5a4bb45483f2e068dde0fa020d59f
   }
 }
