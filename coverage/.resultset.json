@@ -18,19 +18,26 @@
         1,
         1,
         1,
+        1,
+        1,
         null,
         null,
         null,
         1,
         1,
         1,
+        1,
         null,
+        1,
+        1,
+        1,
         1,
         null,
         null,
         null
       ],
       "/Users/student/Projects/week4/bookmark_manager_1/spec/features/creating_bookmarks_spec.rb": [
+        1,
         1,
         1,
         1,
@@ -59,6 +66,6 @@
         null
       ]
     },
-    "timestamp": 1579174173
+    "timestamp": 1579192321
   }
 }

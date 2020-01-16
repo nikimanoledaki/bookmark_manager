@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html>
-<h1>Your bookmarks:</h1>
-<h1><%= @bookmark %></h1>
-</html>
+<ul>
+  <h1>Your bookmarks:</h1>
+  <% @bookmarks.each do |bookmark| %>
+  <li><a href=<%= bookmark.url %>><%= bookmark.title %></a></li>
+  <% end %>
+</ul>
