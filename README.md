@@ -33,6 +33,10 @@ I want to add a bookmark to Bookmark Manager
 As a user
 So I can remove my bookmark from Bookmark Manager
 I want to delete a bookmark
+
+As a user
+So I can change a bookmark in Bookmark Manager
+I want to update a bookmark
 ```
 
 ## Domain model
@@ -42,6 +46,8 @@ I want to delete a bookmark
 |  list of bookmarks  | Bookmark.all    |
 |  new bookmark       | Bookmark.create |
 |  delete bookmark    | Bookmark.delete |
+|  update bookmark    | Bookmark.update |
+|  find bookmark      | Bookmark.find   |
 
 ## How to create a database 
 1. Connect to psql
