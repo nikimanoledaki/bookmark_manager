@@ -1,12 +1,8 @@
 # Bookmark Manager
 
-This week, you will build a web app that stores web bookmarks in a database.
+I built a web app that stores web bookmarks in a database during Week 4 of Makers Academy.
 
 ## Learning objectives
-
-#### Primary goal
-
-By the end of the week, the goal is to be able to answer "yes" to the week's primary question:
 
 **Can you build a web app that uses a database?**
 
@@ -23,51 +19,63 @@ By the end of the week all developers can:
 - Databases
 - Tooling
 
-## Sample User Story
-
-|   noun/class/object  |    verb/behavior/method     |
-|-----------|---------------|
-|  list of bookmarks  | show_bookmark |
+## User stories
 
 ```
 As a user
 So that I can access websites that I have saved
 I'd like to see a list of bookmarks
+
+As a user
+So I can store bookmark data for later retrieval
+I want to add a bookmark to Bookmark Manager
+
+As a user
+So I can remove my bookmark from Bookmark Manager
+I want to delete a bookmark
 ```
 
-## How to create a database 
+## Domain model
+
+|   noun/class/object  |    verb/behavior/method     |
+|-----------|---------------|
+|  list of bookmarks  | Bookmark.all    |
+|  new bookmark       | Bookmark.create |
+|  delete bookmark    | Bookmark.delete |
+
+## How to create a database 
 1. Connect to psql
 ```
-$ psql postgres
+  $ psql postgres
 ```
-2. Create the database using the psql command CREATE DATABASE bookmark_manager;
+2. Create the database
 ```
-$ CREATE DATABASE bookmark_manager;
+  $ CREATE DATABASE bookmark_manager;
 ```
-3. Connect to the database using the pqsl command \c bookmark_manager;
+3. Connect to the database
 ```
-$ \c bookmark_manager;
+  $ \c bookmark_manager;
 ```
 4. Run the query we have saved in the file 01_create_bookmarks_table.sql
 ```
-$ 
+  $ 
 ```
 
 
-## How to create a test database 
+## How to create a test database 
 1. Connect to psql
 ```
-$ psql postgres
+  $ psql postgres
 ```
-2. Create the database using the psql command CREATE DATABASE bookmark_manager_test;
+2. Create the test database
 ```
-$ CREATE DATABASE bookmark_manager;
+  $ CREATE DATABASE bookmark_manager;
 ```
-3. Connect to the database using the pqsl command \c bookmark_manager;
+3. Connect to the test database 
 ```
-$ \c bookmark_manager;
+  $ \c bookmark_manager;
 ```
 4. Run the query we have saved in the file 01_create_bookmarks_table.sql
 ```
-$ 
+  $ 
 ```
