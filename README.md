@@ -85,3 +85,14 @@ I want to update a bookmark
 ```
   $ 
 ```
+
+## Getting started
+```
+$ git clone https://github.com/nikimanoledaki/bookmark_manager.git
+$ bundle install
+```
+
+## How to test
+```
+$ rspec
+```
