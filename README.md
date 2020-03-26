@@ -2,22 +2,24 @@
 
 I built a web app that stores web bookmarks in a database during Week 4 of Makers Academy.
 
-## Learning objectives
-
-**Can you build a web app that uses a database?**
-
-By the end of the week all developers can:
-
+The learning objectives for this weekly challenge were the following.
 * Build a simple web app with a database (this pirmary goal breaks down into the two sub-goals below)
 * Follow an effective debugging process for database applications
 * Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
 
-### Main focuses for this week
+## Getting started
+Clone this repo, `cd` into it, then instal the gems with your bundler.
+```
+$ git clone https://github.com/nikimanoledaki/bookmark_manager.git
+$ cd bookmark_manager
+$ bundle install
+```
 
-- Agile and TDD
-- Engineering and 'Dev Recipes'
-- Databases
-- Tooling
+## How to test
+Run the RSpec tests from the root of your directory.
+```
+$ rspec
+```
 
 ## User stories
 
@@ -41,13 +43,13 @@ I want to update a bookmark
 
 ## Domain model
 
-|   noun/class/object  |    verb/behavior/method     |
-|-----------|---------------|
-|  list of bookmarks  | Bookmark.all    |
-|  new bookmark       | Bookmark.create |
-|  delete bookmark    | Bookmark.delete |
-|  update bookmark    | Bookmark.update |
-|  find bookmark      | Bookmark.find   |
+| noun/class/object | verb/behavior/method |
+| ----------------- | -------------------- |
+| list of bookmarks | Bookmark.all         |
+| new bookmark      | Bookmark.create      |
+| delete bookmark   | Bookmark.delete      |
+| update bookmark   | Bookmark.update      |
+| find bookmark     | Bookmark.find        |
 
 ## How to create a database 
 1. Connect to psql
@@ -67,7 +69,6 @@ I want to update a bookmark
   $ 
 ```
 
-
 ## How to create a test database 
 1. Connect to psql
 ```
@@ -84,15 +85,4 @@ I want to update a bookmark
 4. Run the query we have saved in the file 01_create_bookmarks_table.sql
 ```
   $ 
-```
-
-## Getting started
-```
-$ git clone https://github.com/nikimanoledaki/bookmark_manager.git
-$ bundle install
-```
-
-## How to test
-```
-$ rspec
 ```
